@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+AGENTS.md
+cp-brandbar.html
+cp-inject.cjs
