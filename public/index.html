@@ -939,7 +939,7 @@
       if (ws && (ws.readyState === WebSocket.OPEN || ws.readyState === WebSocket.CONNECTING)) return;
 
       const protocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-      const wsUrl = `${protocol}//${location.host}`;
+      const wsUrl = `${protocol}//${location.host}${location.pathname.replace(/\/+$/, "")}/`; // sub-path, non la radice
 
       try {
         ws = new WebSocket(wsUrl);
