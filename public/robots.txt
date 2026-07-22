@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://cristianporco.it/app/convertitore-batch-di-immagini-webp-in-png-con-coda-condivisa/sitemap.xml
